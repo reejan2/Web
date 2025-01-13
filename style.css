@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.information{
+    background-color: pink;
+    padding: 20px 60px;  
+    color:  darkblue; 
+    font-family: Georgia, 'Times New Roman', Times, serif ; 
+    text-align: left;
+
+}
+
+.img-i{
+    margin-left: 40px;
+    width: 66%;
+    
+    
+}
+
+.img-i {
+    max-height: 152px;
+    
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100% ;
+    margin-top: 5px;
+    padding: 0px 10px;
+    border-bottom: 1px solid #808080;
+    
+}
+
+header li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: #555;
+    position: relative;
+    padding: 9px 0px;
+    margin: 2px 3px 5px 2px;
+    display: inline-block;
+    transition: color 0.3s;
+    font-size: 23px;
+}
+nav li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: darkblue 
+    
+}
+
+nav li a:hover{
+
+    color:darkblue;
+    font-size: 24px;
+    transition: color 0.03s ease;
+}
+
+nav li a:hover::after {
+    width: 100%; 
+}
+
+
+.img-ii{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.text-i{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    text-transform: none;
+    color: #2c2c2c;
+    margin-bottom: 15px;
+}
+
+.img-iii{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 0px 0px 13px opx;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+
+.Home{
+    background-color: #ffc0ab;
+}
+.Features{
+    background-color: #ffc0ab;
+}
+
+.faculty{
+        background-color: #ffc0ab;
+}
+
+
+.contact{
+background-color:#ffc0ab;
+
+}
+
+.about{
+    background-color: #ffc0ab;
+}
+.text-list{
+    margin-left: 80px;
+    font-size: 18px;
+}
